@@ -1,0 +1,1002 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box
+}
+
+#container {
+    width: 100%
+}
+
+#background {
+    padding: 10px;
+    width: 100%;
+    background: linear-gradient(#ccaaab, #6119d694), url(../images/unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+#background img {
+    margin: 10% 0 0 10%
+}
+
+#background h1 {
+    font-weight: 700;
+    font-family: Trebuchet MS;
+    font-size: 2em;
+    margin: -13% 0 0 22%;
+    color: #fff
+}
+
+#background ul {
+    margin: 0 0 0 70%
+}
+
+#background ul li {
+    list-style-type: none;
+    color: #fff;
+    font-size: 22px;
+    font-family: corbel;
+    margin: 20px 0 0 0
+}
+
+#background ul li a {
+    text-decoration: none;
+    color: #fff
+}
+
+#background h2 {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 1.5em;
+    font-family: Segoe Print;
+    text-align: center;
+    margin: 20% 0 0 0
+}
+
+#background h3 {
+    font-size: 2em;
+    color: #fff;
+    font-family: Segoe Script;
+    font-weight: lighter;
+    text-align: center
+}
+
+#background form input[type=submit] {
+    margin: 10% 0 10% 21%;
+    padding: 20px 50px 20px 50px;
+    font-size: 1em;
+    background: rgba(0, 0, 0, .5);
+    font-family: corbel;
+    border: 1px solid #fff;
+    color: #ffff
+}
+
+#whitebox {
+    width: 100%;
+    padding: 10px
+}
+
+#whitebox h2 {
+    margin: 10% 0 0 0;
+    text-align: center;
+    font-weight: lighter;
+    font-family: corbel;
+    font-size: 2em
+}
+
+#whitebox h2 span {
+    font-weight: 700
+}
+
+#whitebox p {
+    color: #898282;
+    font-size: 1em;
+    text-align: justify;
+    font-family: corbel;
+    margin: 5% 0 0 0;
+    line-height: 20px
+}
+
+#whitebox img {
+    margin: 5% 0 0 15%
+}
+
+#greybox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fafafa;
+    background-color: #fafafa
+}
+
+#greybox img {
+    margin: 5% 0 0 18%
+}
+
+#greybox h2 {
+    margin: 10% 0 0 0;
+    font-weight: lighter;
+    text-align: center;
+    font-family: corbel;
+    font-size: 2em
+}
+
+#greybox h2 span {
+    font-weight: 700
+}
+
+#greybox p {
+    color: #898282;
+    font-family: corbel;
+    margin: 5% 0 0 0;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 22px
+}
+
+#Contact {
+    width: 100%;
+    padding: 10px;
+    border: rgb(96 78 91 / 40%);
+    background: linear-gradient(#ccaaab, #6119d694)
+}
+
+#Contact img {
+    width: 20%;
+    height: 20%;
+    margin: 10% 0 0 40%
+}
+
+#Contact h4 {
+    font-family: corbel;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 700;
+    margin: 5% 0 0 0
+}
+
+#Contact p {
+    text-align: center;
+    font-family: corbel;
+    font-size: 1em;
+    color: #fff;
+    margin: 5% 0 10% 0
+}
+
+#middle {
+    width: 100%;
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #fafafa
+}
+
+#middle h2 {
+    font-family: corbel;
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center;
+    margin: 5% 0 0 0
+}
+
+#middle h2 span {
+    font-weight: 700
+}
+
+#middle h4 {
+    font-size: .9em;
+    font-weight: lighter;
+    color: #898282;
+    font-family: corbel;
+    text-align: center;
+    margin: .2% 0 0 0
+}
+
+#middle #div1 #black1 {
+    border: 4px solid #000;
+    border-radius: 100%;
+    margin: 5% 0 0 18%
+}
+
+#middle #div1 p {
+    font-size: 1em;
+    color: #898282;
+    font-family: corbel;
+    margin: 5% 0 0 0
+}
+
+#middle #div1 h6 {
+    margin: 5% 0 0 21%;
+    color: #154fc4;
+    font-family: corbel;
+    font-size: .7em
+}
+
+#middle #div2 #black2 {
+    border: 4px solid #000;
+    border-radius: 100%;
+    margin: 15% 0 0 18%
+}
+
+#middle #div2 p {
+    font-size: 1em;
+    color: #898282;
+    font-family: corbel;
+    margin: 5% 0 0 0
+}
+
+#middle #div2 h6 {
+    margin: 5% 0 0 30%;
+    font-family: corbel;
+    color: #154fc4;
+    font-size: .7em
+}
+
+#company {
+    padding: 10px;
+    margin: 0 0 0 20%
+}
+
+#company ul li {
+    margin: 5% 0 0 0;
+    list-style-type: none;
+    display: inline-block
+}
+
+#blackbox {
+    width: 100%;
+    padding: 10%;
+    border: 1px solid #000;
+    background-color: #000
+}
+
+#blackbox h2 {
+    font-weight: lighter;
+    font-size: 2em;
+    color: #fff;
+    font-family: corbel;
+    text-align: center
+}
+
+#blackbox h2 span {
+    font-weight: 700
+}
+
+#blackbox h3 {
+    color: #c1baba;
+    font-size: .75em;
+    font-family: corbel;
+    font-weight: lighter;
+    text-align: center
+}
+
+#blackbox div #round1 {
+    border: 4px solid #fff;
+    border-radius: 100%;
+    margin: 10% 0 0 12%
+}
+
+#blackbox div #round2 {
+    border: 4px solid #fff;
+    border-radius: 100%;
+    margin: 10% 0 0 12%
+}
+
+#blackbox div #round3 {
+    border: 4px solid #fff;
+    border-radius: 100%;
+    margin: 10% 0 0 12%
+}
+
+#blackbox div h6 {
+    font-size: 1.22em;
+    text-align: center;
+    color: #fff;
+    font-family: corbel;
+    font-weight: lighter;
+    margin: 5% 0 0 0
+}
+
+#blackbox div h6 span {
+    color: #154fc4
+}
+
+#blackbox div ul {
+    margin: 5% 0 0 17%
+}
+
+#blackbox div ul li {
+    display: inline-block;
+    margin: 0 0 0 5%
+}
+
+#blackbox p {
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    margin: 5% 0 0 0;
+    font-family: corbel
+}
+
+#skybox {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(#ccaaab, #6119d694);
+    border: 1px solid #154fc4;
+    border-bottom: 1px solid rgb(96 78 91 / 40%)
+}
+
+#skybox h2 {
+    font-size: 2em;
+    font-weight: lighter;
+    color: #fff;
+    font-family: corbel;
+    text-align: center;
+    margin: 5% 0 0 0
+}
+
+#skybox h2 span {
+    font-weight: 700
+}
+
+#skybox #para {
+    font-size: 1em;
+    color: #fff;
+    font-family: corbel;
+    text-align: center;
+    margin: 5% 0 0 0
+}
+
+#skybox div {
+    display: block;
+    margin: 10% 0 0 0
+}
+
+#skybox img {
+    width: 30px;
+    height: 30px;
+    margin: 5% 0 0 20%
+}
+
+#skybox p {
+    font-size: 1em;
+    color: #fff;
+    font-family: corbel;
+    margin: -10% 0 20% 40%
+}
+
+#skybox #text {
+    margin: 5% 0 0 .6%
+}
+
+#skybox form #name {
+    width: 18.45em;
+    height: 3em;
+    font-size: 1em;
+    margin: 5% 0 0 0
+}
+
+#skybox form #email {
+    width: 18.45em;
+    height: 3em;
+    font-size: 1em;
+    margin: 5% 0 0 0
+}
+
+#skybox form textarea {
+    width: 22.45em;
+    height: 5em;
+    font-size: 1em;
+    margin: 5% 0 10% 0
+}
+
+#footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    border: 1px solid #000
+}
+
+#footer p {
+    color: #fff;
+    font-size: .9em;
+    font-family: corbel;
+    text-align: center;
+    margin: 10% 0 0 0
+}
+
+#footer h5 {
+    color: #fff;
+    font-size: 1.2em;
+    font-family: corbel;
+    text-align: center;
+    margin: 5% 0 10% 0
+}
+
+#footer h5 span {
+    color: #154fc4
+}
+
+@media only screen and (min-width:375px) {
+    #background img {
+        margin: 10% 0 0 10%
+    }
+    #background h1 {
+        font-weight: 700;
+        font-size: 2em;
+        margin: -11% 0 0 22%;
+        color: #fff
+    }
+    #background form input[type=submit] {
+        margin: 10% 0 10% 27%
+    }
+    #whitebox img {
+        margin: 5% 0 0 18%
+    }
+    #greybox img {
+        margin: 5% 0 0 22%
+    }
+    #Contact img {
+        margin: 10% 0 0 40%
+    }
+    #middle #div1 #black1 {
+        margin: 5% 0 0 23%
+    }
+    #middle #div1 p {
+        text-align: center;
+        margin: 2% 0 0 0
+    }
+    #middle #div1 h6 {
+        margin: 5% 0 0 30%
+    }
+    #middle #div2 #black2 {
+        margin: 15% 0 0 23%
+    }
+    #middle #div2 p {
+        text-align: center;
+        margin: 5% 0 0 0
+    }
+    #middle #div2 h6 {
+        margin: 5% 0 0 42%
+    }
+    #company {
+        padding: 10px;
+        margin: 10% 0 0 27%
+    }
+    #blackbox div #round1 {
+        margin: 10% 0 0 18%
+    }
+    #blackbox div #round2 {
+        margin: 10% 0 0 18%
+    }
+    #blackbox div #round3 {
+        margin: 10% 0 0 18%
+    }
+    #blackbox div ul {
+        margin: 5% 0 0 20%
+    }
+    #skybox p {
+        margin: -9% 0 20% 40%
+    }
+    #skybox div {
+        display: block;
+        margin: 10% 0 0 6%
+    }
+    #skybox #text {
+        margin: 3% 0 0 8%
+    }
+}
+
+@media only screen and (min-width:425px) {
+    #background h1 {
+        margin: -9% 0 0 22%
+    }
+    #background ul {
+        margin: 0 0 0 75%
+    }
+    #background form input[type=submit] {
+        margin: 10% 0 10% 30%
+    }
+    #whitebox img {
+        margin: 5% 0 0 22%
+    }
+    #greybox img {
+        margin: 5% 0 0 28%
+    }
+    #Contact img {
+        margin: 10% 0 0 40%
+    }
+    #middle #div1 #black1 {
+        margin: 5% 0 0 26%
+    }
+    #middle #div1 h6 {
+        margin: 5% 0 0 38%
+    }
+    #middle #div2 #black2 {
+        margin: 15% 0 0 28%
+    }
+    #middle #div2 h6 {
+        margin: 5% 0 0 48%
+    }
+    #company {
+        padding: 10px;
+        margin: 10% 0 0 30%
+    }
+    #blackbox div #round1 {
+        margin: 10% 0 0 21%
+    }
+    #blackbox div #round2 {
+        margin: 10% 0 0 21%
+    }
+    #blackbox div #round3 {
+        margin: 10% 0 0 21%
+    }
+    #blackbox div ul {
+        margin: 5% 0 0 23%
+    }
+    #skybox p {
+        margin: -7% 0 20% 40%
+    }
+    #skybox #text {
+        margin: 3% 0 0 14%
+    }
+    #footer p {
+        font-size: .9em
+    }
+}
+
+@media only screen and (min-width:768px) {
+    #background h1 {
+        font-size: 2.3em;
+        margin: -5.5% 0 0 16%
+    }
+    #background ul {
+        margin: 0 0 0 80%
+    }
+    #background form input[type=submit] {
+        margin: 10% 0 10% 38%
+    }
+    #whitebox h2 {
+        margin: 10% 0 0 11%;
+        text-align: justify;
+        font-size: 2em
+    }
+    #whitebox p {
+        text-align: justify;
+        width: 25em;
+        margin: 2% 0 0 5%
+    }
+    #whitebox img {
+        margin: -20% 0 0 65%
+    }
+    #greybox img {
+        margin: 5% 0 0 5%
+    }
+    #greybox h2 {
+        margin: -24% 0 0 50%;
+        text-align: justify
+    }
+    #greybox p {
+        width: 26em;
+        margin: 1% 0 5% 40%;
+        text-align: justify
+    }
+    #Contact img {
+        width: 10%;
+        height: 10%;
+        margin: 10% 0 0 17%
+    }
+    #Contact h4 {
+        text-align: justify;
+        margin: -12% 0 0 33%
+    }
+    #Contact p {
+        text-align: justify;
+        width: 25em;
+        margin: 2% 0 5% 32%
+    }
+    #middle #div1 #black1 {
+        margin: 5% 0 0 11%
+    }
+    #middle #div2 #black2 {
+        margin: 0 0 0 5%
+    }
+    #middle #div1 p {
+        width: 20em;
+        text-align: justify;
+        margin: -20% 0 0 45%
+    }
+    #middle #div1 h6 {
+        margin: 2% 0 0 60%
+    }
+    #middle #div2 #black2 {
+        margin: 15% 0 0 60%
+    }
+    #middle #div2 p {
+        width: 20em;
+        text-align: justify;
+        margin: -20% 0 0 11%
+    }
+    #middle #div2 h6 {
+        margin: 2% 0 10% 31%
+    }
+    #company {
+        margin: 5% 0 5% 1%
+    }
+    #company ul li {
+        margin: 0 0 0 2%
+    }
+    #blackbox h2 {
+        font-size: 2.5em
+    }
+    #blackbox h3 {
+        font-size: .85em
+    }
+    #blackbox div #round1 {
+        margin: 10% 0 0 34%
+    }
+    #blackbox div #round2 {
+        margin: 10% 0 0 34%
+    }
+    #blackbox div #round3 {
+        margin: 10% 0 0 34%
+    }
+    #blackbox div ul {
+        margin: 5% 0 0 33%
+    }
+    #skybox div {
+        width: 19em;
+        height: 14em;
+        display: inline-block;
+        margin: 5% 0 0 6%
+    }
+    #skybox img {
+        margin: 10% 0 0 15%
+    }
+    #skybox p {
+        margin: -10% 0 0 40%
+    }
+    #skybox #text {
+        width: 25em;
+        height: 19em;
+        margin: 2% 0 5% 23%
+    }
+    #skybox form #name {
+        width: 25em;
+        height: 3em;
+        font-size: 1em;
+        margin: 5% 0 0 0
+    }
+    #skybox form #email {
+        width: 25em;
+        height: 3em;
+        font-size: 1em;
+        margin: 5% 0 0 0
+    }
+    #skybox form textarea {
+        width: 30.68em;
+        height: 10em;
+        font-size: 1em;
+        margin: 5% 0 0 0
+    }
+    #footer p {
+        margin: 5% 0 0 0
+    }
+    #footer h5 {
+        margin: 2% 0 5% 0
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    #background img {
+        margin: 5% 0 0 10%
+    }
+    #background h1 {
+        font-size: 2.3em;
+        margin: -4% 0 0 14%
+    }
+    #background ul {
+        margin: -3% 0 0 50%
+    }
+    #background ul li {
+        margin: 0 0 0 5%;
+        display: inline-block
+    }
+    #background h2 {
+        font-size: 1.9em;
+        margin: 15% 0 0 0
+    }
+    #background h3 {
+        font-size: 2.8em
+    }
+    #background form input[type=submit] {
+        margin: 10% 0 10% 42%
+    }
+    #whitebox h2 {
+        margin: 10% 0 0 20%
+    }
+    #whitebox p {
+        width: 28em;
+        margin: 2% 0 0 10%
+    }
+    #whitebox img {
+        margin: -20% 0 0 65%
+    }
+    #greybox img {
+        margin: 5% 0 0 15%
+    }
+    #greybox h2 {
+        margin: -18% 0 0 55%;
+        text-align: justify
+    }
+    #greybox p {
+        width: 27em;
+        margin: 1% 0 5% 45%;
+        text-align: justify
+    }
+    #Contact div {
+        width: 30em;
+        height: 15em;
+        display: inline-block;
+        margin: 0 0 0 1%
+    }
+    #Contact img {
+        width: 15%;
+        height: 25%;
+        margin: 15% 0 0 5%
+    }
+    #Contact h4 {
+        margin: -15% 0 0 25%
+    }
+    #Contact p {
+        text-align: justify;
+        width: 22em;
+        margin: 2% 0 0 25%
+    }
+    #middle #div1 #black1 {
+        margin: 5% 0 0 18%
+    }
+    #middle #div1 p {
+        width: 22em;
+        text-align: justify;
+        margin: -15% 0 0 45%
+    }
+    #middle #div1 h6 {
+        margin: 2% 0 0 58%;
+        font-size: .7em
+    }
+    #middle #div2 #black2 {
+        margin: 15% 0 0 60%
+    }
+    #middle #div2 p {
+        width: 20em;
+        text-align: justify;
+        margin: -15% 0 0 19%
+    }
+    #middle #div2 h6 {
+        margin: 2% 0 10% 34%;
+        font-size: .7em
+    }
+    #company {
+        margin: 5% 0 5% 10%
+    }
+    #company ul li {
+        margin: 0 0 0 3.5%
+    }
+    #blackbox div {
+        width: 15em;
+        height: 22em;
+        display: inline-block;
+        margin: 10% 0 0 3%
+    }
+    #blackbox h2 {
+        font-size: 2.7em
+    }
+    #blackbox h3 {
+        font-size: .9em
+    }
+    #blackbox div #round1 {
+        margin: 0 0 0 8%
+    }
+    #blackbox div #round2 {
+        margin: 0 0 0 8%
+    }
+    #blackbox div #round3 {
+        margin: 0 0 0 8%
+    }
+    #blackbox div ul {
+        margin: 5% 0 0 12%
+    }
+    #blackbox p {
+        width: 25em;
+        text-align: center;
+        margin: 5% 0 0 27%
+    }
+    #skybox div {
+        width: 15em;
+        height: 14em;
+        display: inline-block;
+        margin: 0 0 5% 3%
+    }
+    #skybox img {
+        margin: 17% 0 0 15%
+    }
+    #skybox p {
+        margin: -11% 0 0 40%
+    }
+    #skybox #text {
+        width: 25em;
+        height: 16em;
+        margin: 5% 0 10% 1.9%
+    }
+    #skybox form #name {
+        width: 25em;
+        height: 3em;
+        font-size: 1em;
+        margin: 2% 0 0 0
+    }
+    #skybox form #email {
+        width: 25em;
+        height: 3em;
+        font-size: 1em;
+        margin: 2% 0 0 0
+    }
+    #skybox form textarea {
+        width: 30.68em;
+        height: 10em;
+        font-size: 1em;
+        margin: 2% 0 0 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    #background img {
+        width: 5%;
+        height: 5%;
+        margin: 9% 0 0 10%
+    }
+    #background h1 {
+        font-size: 3em;
+        margin: -5% 0 0 16%
+    }
+    #background ul {
+        margin: -2% 0 0 60%
+    }
+    #background ul li {
+        font-size: 1.5em
+    }
+    #background h2 {
+        font-size: 2.5em;
+        margin: 15% 0 0 0
+    }
+    #background h3 {
+        font-size: 3.5em
+    }
+    #background form input[type=submit] {
+        margin: 5% 0 10% 44%
+    }
+    #whitebox h2 {
+        margin: 10% 0 0 28%
+    }
+    #whitebox p {
+        font-size: 1.25em;
+        margin: 2% 0 0 18%;
+        line-height: 24px
+    }
+    #whitebox img {
+        margin: -20% 0 0 65%
+    }
+    #greybox img {
+        width: 15em;
+        height: 12em;
+        margin: 7% 0 0 20%
+    }
+    #greybox h2 {
+        margin: -15% 0 0 55%;
+        text-align: justify
+    }
+    #greybox p {
+        font-size: 1.25em;
+        line-height: 24px;
+        margin: 2% 0 5% 45%
+    }
+    #Contact div {
+        width: 30em;
+        height: 15em;
+        display: inline-block;
+        margin: 5% 0 0 8%
+    }
+    #Contact img {
+        width: 20%;
+        height: 35%;
+        margin: 10% 0 0 8%
+    }
+    #Contact h4 {
+        font-size: 1.8em;
+        margin: -18% 0 0 32%
+    }
+    #Contact p {
+        text-align: justify;
+        font-size: 1.3em;
+        margin: 2% 0 0 32%
+    }
+    #middle h2 {
+        font-size: 3.5em
+    }
+    #middle h4 {
+        font-size: 1.2em
+    }
+    #middle #div1 #black1 {
+        margin: 5% 0 0 18%
+    }
+    #middle #div1 p {
+        font-size: 2em;
+        margin: -12% 0 0 35%
+    }
+    #middle #div1 h6 {
+        font-size: 1.2em;
+        margin: 2% 0 0 58%
+    }
+    #middle #div2 #black2 {
+        margin: 13% 0 0 70%
+    }
+    #middle #div2 p {
+        font-size: 2em;
+        margin: -15% 0 0 19%
+    }
+    #middle #div2 h6 {
+        font-size: 1.2em;
+        margin: 2% 0 10% 44%
+    }
+    #company {
+        margin: 5% 0 5% 17%
+    }
+    #company ul li {
+        margin: 0 0 0 5%
+    }
+    #blackbox div {
+        margin: 10% 0 0 10%
+    }
+    #blackbox h2 {
+        font-size: 3em
+    }
+    #blackbox h3 {
+        font-size: 1em
+    }
+    #blackbox div ul {
+        margin: 5% 0 0 12%
+    }
+    #blackbox p {
+        font-size: 1.5em;
+        margin: 5% 0 0 24%
+    }
+    #skybox h2 {
+        font-size: 4em;
+        margin: 5% 0 0 0
+    }
+    #skybox #para {
+        font-size: 1.2em;
+        margin: 0
+    }
+    #skybox div {
+        width: 15em;
+        height: 14em;
+        display: inline-block;
+        margin: 5% 0 5% 10%
+    }
+    #skybox #text {
+        width: 25em;
+        height: 16em;
+        margin: 5% 0 10% 7%
+    }
+    #footer p {
+        font-size: 1.5em;
+        margin: 5% 0 0 0
+    }
+    #footer h5 {
+        color: #fff;
+        font-size: 1.6em;
+        text-align: center;
+        margin: 0 0 5% 0
+    }
+}
